@@ -1,0 +1,9 @@
+{
+  "semi": false,
+  "singleQuote": true,
+  "eslintIntegration": true,
+  "stylelintIntegration": true,
+  "trailingComma": "none",
+  "bracketSpacing": true,
+  "jsxBracketSameLine": true
+}

@@ -7,6 +7,7 @@
   <Comp4 msg="4.ref理解" />
   <Comp5 msg="5.ref和reactive的区别" />
   <Comp6 msg="6.递归监听（每一层都可以监听）和非递归监听" />
+  <Comp7 msg="7.toRaw方法拿到原始数据" />
 </template>
 
 <script>
@@ -16,6 +17,7 @@ import Comp3 from './components/Comp3.vue'
 import Comp4 from './components/Comp4.vue'
 import Comp5 from './components/Comp5.vue'
 import Comp6 from './components/Comp6.vue'
+import Comp7 from './components/Comp7.vue'
 
 export default {
   name: 'App',
@@ -25,7 +27,8 @@ export default {
     Comp3,
     Comp4,
     Comp5,
-    Comp6
+    Comp6,
+    Comp7
   }
 }
 </script>

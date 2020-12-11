@@ -9,6 +9,7 @@
   <Comp6 msg="6.递归监听（每一层都可以监听）和非递归监听" />
   <Comp7 msg="7.toRaw方法拿到原始数据" />
   <Comp8 msg="8.markRaw使数据永远不被追踪" />
+  <Comp9 msg="9.toRef方法以及和ref方法的区别" />
 </template>
 
 <script>
@@ -20,6 +21,7 @@ import Comp5 from './components/Comp5.vue'
 import Comp6 from './components/Comp6.vue'
 import Comp7 from './components/Comp7.vue'
 import Comp8 from './components/Comp8.vue'
+import Comp9 from './components/Comp9.vue'
 
 export default {
   name: 'App',
@@ -31,7 +33,8 @@ export default {
     Comp5,
     Comp6,
     Comp7,
-    Comp8
+    Comp8,
+    Comp9
   }
 }
 </script>

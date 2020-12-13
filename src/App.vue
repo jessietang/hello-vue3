@@ -14,6 +14,7 @@
   <Comp11 msg="11.customRef方法" />
   <Comp12 msg="12.customRef方法应用" />
   <Comp13 msg="13.ref获取元素" />
+  <Comp14 msg="14.readonly、shallowReadonly、isReadonly-理解" />
 </template>
 
 <script>
@@ -30,6 +31,7 @@ import Comp10 from './components/Comp10.vue'
 import Comp11 from './components/Comp11.vue'
 import Comp12 from './components/Comp12.vue'
 import Comp13 from './components/Comp13.vue'
+import Comp14 from './components/Comp14.vue'
 
 export default {
   name: 'App',
@@ -46,7 +48,8 @@ export default {
     Comp10,
     Comp11,
     Comp12,
-    Comp13
+    Comp13,
+    Comp14
   }
 }
 </script>

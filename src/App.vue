@@ -11,6 +11,8 @@
   <Comp8 msg="8.markRaw使数据永远不被追踪" />
   <Comp9 msg="9.toRef方法以及和ref方法的区别" />
   <Comp10 msg="10.toRefs方法" />
+  <Comp11 msg="11.customRef方法" />
+  <Comp12 msg="12.customRef方法应用" />
 </template>
 
 <script>
@@ -24,6 +26,8 @@ import Comp7 from './components/Comp7.vue'
 import Comp8 from './components/Comp8.vue'
 import Comp9 from './components/Comp9.vue'
 import Comp10 from './components/Comp10.vue'
+import Comp11 from './components/Comp11.vue'
+import Comp12 from './components/Comp12.vue'
 
 export default {
   name: 'App',
@@ -37,7 +41,9 @@ export default {
     Comp7,
     Comp8,
     Comp9,
-    Comp10
+    Comp10,
+    Comp11,
+    Comp12
   }
 }
 </script>
